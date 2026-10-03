@@ -13,6 +13,11 @@ tags:
 task_categories:
   - translation
   - text-classification
+configs:
+  - config_name: basic_vocabulary_results
+    data_files: basic_vocabulary_results.csv
+  - config_name: same_meaning_judgment_pairs
+    data_files: same_meaning_judgment_pairs.csv
 ---
 
 # Tigrinya Lexical Blind Spot Evaluation — Qwen3-4B-Instruct-2507
