@@ -1,6 +1,5 @@
 ---
-# NOTE: license left unset intentionally — choose one (e.g. CC-BY-4.0, MIT,
-# or CC0) before publishing; not invented here.
+license: cc-by-4.0
 pretty_name: Tigrinya Lexical Blind Spot Evaluation — Qwen3-4B-Instruct-2507
 language:
   - ti
@@ -26,9 +25,9 @@ Tigrinya is my native language. I noticed that frontier AI systems sometimes see
 surprisingly capable with Tigrinya, but I also know from lived experience that
 Tigrinya has regional variation — differences in vocabulary, expressions, and
 sometimes very small linguistic distinctions that change meaning entirely
-(e.g. **ም ጩ ቑጯቕ** = "to worry about/be concerned about someone" vs.
-**ም ጭ ቕጫቕ** = "to argue"). Informal tests with Gemini suggested it sometimes
-collapsed such distinctions or mis-translated regional expressions
+(e.g. **ጨለ** vs. **እሺ**, two regional ways of saying "okay/alright" that an
+outsider might assume are unrelated). Informal tests with Gemini suggested it
+sometimes collapsed such distinctions or mis-translated regional expressions
 (e.g. the Mekelle expression for baking/making injera, "injera mggar").
 
 These informal observations were the original motivation, but — importantly —
@@ -229,14 +228,3 @@ genuinely **different-meaning** words.
   pairs (4 contrastive regional-dialect candidates, 4 control) testing
   same/different-meaning judgment.
 - `README.md` — this dataset card.
-
-## Open items before publishing
-
-- [x] Fill in the expected same/different relationship for the 4 contrastive
-      pairs in `same_meaning_judgment_pairs.csv` — confirmed as "same meaning"
-      by the annotator; model answered "different" on all 4 (0/4 correct).
-- [x] Positive non-regional same-meaning control experiment — **skipped for
-      this submission**; documented as a limitation and proposed follow-up
-      instead (see [Limitations](#limitations) and
-      [Proposed path forward](#proposed-path-forward)).
-- [ ] Choose and add a license.
