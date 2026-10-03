@@ -1,0 +1,9 @@
+pair_id,item_a,item_b,pair_type,human_expected_relationship,model_answer,explanation_correctness,notes
+1,ጨለ,እሺ,contrastive,same,no,uncertain,model incorrectly judged as different meaning (should be same)
+2,ምህራም,ምውቃዕ,contrastive,same,no,uncertain,model incorrectly judged as different meaning (should be same)
+3,ህራስ,ድቃስ,contrastive,same,no,uncertain,model incorrectly judged as different meaning (should be same)
+4,ምንጋር,ምዝራብ,contrastive,same,no,uncertain,model incorrectly judged as different meaning (should be same)
+5,ማይ,ገዛ,control,different,no,correct_relationship_wrong_reasoning,model judgment correct but explanation unreliable
+6,እንጀራ,ማይ,control,different,no,correct_relationship_wrong_reasoning,model judgment correct but explanation unreliable
+7,ኣደ,ኣቦ,control,different,no,correct_relationship_wrong_reasoning,model judgment correct but explanation unreliable
+8,ሓፍቲ,ሓወይ,control,different,no,correct_relationship_wrong_reasoning,model judgment correct but explanation unreliable

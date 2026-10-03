@@ -1,0 +1,31 @@
+item_id,word_tigrinya,human_reference_meaning,model_raw_output_short,model_confidence,correctness_label,error_cluster,is_duplicate_test,notes
+1,ምግቢ,food,to go out / exit,5,incorrect,to_go_move,false,
+2,ማይ,water,to be / exist,5,incorrect,to_be_exist,false,
+3,ገዛ,house/home,to be / exist,5,incorrect,to_be_exist,false,first test of this item
+4,እንጀራ,injera,meat/flesh,5,incorrect,unique,false,
+5,ሓወይ,my brother,where,5,incorrect,unique,false,
+6,ሰብ,person,to be,5,incorrect,to_be_exist,false,
+7,ሰበይቲ,woman,to be / exist,5,incorrect,to_be_exist,false,
+8,ቆልዓ,child,angry / furious,5,incorrect,angry_furious,false,
+9,ኣደ,mother,to be,not_recorded,incorrect,to_be_exist,false,confidence not reliably logged
+10,ኣቦ,father,to be / exist,5,incorrect,to_be_exist,false,
+11,ሓፍቲ,sister,house/home,5,incorrect,unique,false,cross-contamination: matches correct meaning of ቤት/ገዛ
+12,ኣሓት,sisters,angry / furious,5,incorrect,angry_furious,false,
+13,ኢድ,hand,I / me,5,incorrect,unique,false,
+14,እግሪ,foot/leg,angry / get angry,5,incorrect,angry_furious,false,
+15,ርእሲ,head,council / council of elders,5,incorrect,unique,false,
+16,ዓይኒ,eye,to be / exist,5,incorrect,to_be_exist,false,
+17,ኣፍ,mouth,to be,5,incorrect,to_be_exist,false,
+18,ገዛ,house/home,to be / exist,5,incorrect,to_be_exist,true,intentional repeat of item 3 to test consistency
+19,ቤት,house,house/home/dwelling,5,correct,correct,false,
+20,መጽሓፍ,book,dictionary/reference book,5,partial,partial,false,
+21,ትምህርቲ,education/learning,university,5,partial,partial,false,
+22,ሓደ,one,one,5,correct,correct,false,
+23,ክልተ,two,to be / exist,5,incorrect,to_be_exist,false,
+24,ሰለስተ,three,to be / exist,5,incorrect,to_be_exist,false,
+25,ሎሚ,today,to go / move,5,incorrect,to_go_move,false,
+26,ተኽሊ,plant,angry / get angry,5,incorrect,angry_furious,false,
+27,ጨጉሪ,hair,angry / get angry,5,incorrect,angry_furious,false,
+28,ጽቡቕ,good/beautiful,to be / exist; then uncertain,not_recorded,uncertain,ambiguous,false,confidence not reliably logged; excluded from clean accuracy stat
+29,ጸሓይ,sun,to live / exist,not_recorded,incorrect,to_be_exist,false,confidence not reliably logged
+30,መዓልቲ,day,my father,5,incorrect,unique,false,cross-contamination: close to correct domain of ኣደ/ኣቦ
