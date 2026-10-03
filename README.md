@@ -48,8 +48,9 @@ remains **untested/unconfirmed** — see [Limitations](#limitations).
 
 ## Model Tested
 
-`Qwen/Qwen3-4B-Instruct-2507` — loaded via Hugging Face Transformers in Google
-Colab (T4 GPU). Falls within the fellowship's required 0.6B–6B parameter range.
+[`Qwen/Qwen3-4B-Instruct-2507`](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507)
+— loaded via Hugging Face Transformers in Google Colab (T4 GPU). Falls within
+the fellowship's required 0.6B–6B parameter range.
 
 ## Methodology
 
